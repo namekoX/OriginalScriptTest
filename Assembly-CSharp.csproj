@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5ADAC5A-7A6C-81CF-AA8D-F29EFD90A081}</ProjectGuid>
+    <ProjectGuid>{8C6862E3-C2CE-8653-6E54-3974385721D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,56 +56,55 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecVar.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsError.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsFloat.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\AstNode.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Lexer\OsTLexer.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIdentifier.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstFor.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\AstRoot.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstArray.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecFloat.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsArray.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstFunction.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsNull.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstBoolean.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\AstStatement.cs" />
-    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsLen.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstMethod.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecString.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstExpressionStatement.cs" />
-    <Compile Include="Assets\Script\OriginalScript\OriginalScript.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIndex.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstString.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\AstExpression.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstWhile.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstCall.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsEnviroment.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstReturn.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Lexer\OsParser.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsObject.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstInteger.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstInfixExpression.cs" />
-    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsBuiltinFunctions.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsFunction.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIf.cs" />
     <Compile Include="Assets\Script\OriginalScript\Lexer\OsToken.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstFloat.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsReturnValue.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstPrefixExpression.cs" />
-    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsHash.cs" />
     <Compile Include="Assets\Script\OriginalScript\Ast\BuiltinFunctions\AstBuiltinFunctions.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecInt.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Lexer\OsReplacer.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\AstNode.cs" />
     <Compile Include="Assets\Script\OriginalScript\Objects\OsString.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsBoolean.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Lexer\OsEvaluator.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstBlock.cs" />
-    <Compile Include="Assets\Script\OriginalScript\Objects\OsInteger.cs" />
-    <Compile Include="Assets\Script\OsEnviromentEx.cs" />
-    <Compile Include="Assets\Script\ShowMessage.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstBoolean.cs" />
     <Compile Include="Assets\Script\Test.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsInteger.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsBoolean.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecFloat.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstCall.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsReturnValue.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstFloat.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstBlock.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecVar.cs" />
+    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsLen.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstString.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecInt.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstFunction.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIndex.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsObject.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstInfixExpression.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\AstStatement.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Lexer\OsTLexer.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstArray.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstDecString.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsError.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\AstRoot.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsFunction.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsNull.cs" />
+    <Compile Include="Assets\Script\ShowMessage.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstFor.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Lexer\OsReplacer.cs" />
+    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsBuiltinFunctions.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstWhile.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsEnviroment.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsArray.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstExpressionStatement.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Statements\AstReturn.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\AstExpression.cs" />
+    <Compile Include="Assets\Script\OriginalScript\BuiltinFunctions\OsHash.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Lexer\OsParser.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIf.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Lexer\OsEvaluator.cs" />
+    <Compile Include="Assets\Script\OriginalScript\OriginalScript.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstPrefixExpression.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Objects\OsFloat.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstIdentifier.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstMethod.cs" />
+    <Compile Include="Assets\Script\OriginalScript\Ast\Expressions\AstInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -678,35 +677,74 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
@@ -714,59 +752,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
