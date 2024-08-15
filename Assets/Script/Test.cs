@@ -15,7 +15,7 @@ public class Test : MonoBehaviour
         string fileContents = readTextFile(filePath);
 
         // スクリプト実行準備
-        OsEnviromentEx env = new OsEnviromentEx();
+        OsEnviroment env = new OsEnviroment();
         OriginalScript os = new OriginalScript(fileContents, env);
         os.run();
 

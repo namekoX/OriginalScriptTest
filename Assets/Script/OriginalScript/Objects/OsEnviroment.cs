@@ -29,6 +29,7 @@ public class OsEnviroment
     {
         store.Add("len", new OsLen());
         store.Add("createHashMap", new OsHash());
+        store.Add("showMessage", new ShowMessage());
     }
 
     // 自分自身を引き継いで新しい環境を作成する
