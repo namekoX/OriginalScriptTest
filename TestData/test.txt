@@ -1,0 +1,39 @@
+/* 
+   デバッグログを表示するための関数です。
+   この関数はプログラム側から呼び出すので削除しないでください。
+   
+   パラメータ：name 名前
+   パラメータ：timeId 朝の場合:1、昼の場合:2、夜の場合:3
+   パラメータ：count 実行回数
+*/ 
+function debugLog(string name, int timeId, int count){
+    
+    // 引数のtimeId値によって挨拶を変更
+    string greet = "";
+    if(timeId == 1){
+        greet = "おはよう";
+    } else if(timeId == 2){
+        greet = "こんにちわ";
+    } else {
+        greet = "こんばんわ";
+    }
+
+    for(int i = 0 ; i < count ; i++){
+        // デバッグログを出力します。
+        showMessage(greet + "、" + addMrs(name));
+    }
+    
+    var hash = createHashMap();
+    hash.add("おはよう", "おはようで終わりました。")
+    hash.add("こんにちわ", "こんにちわで終わりました。")
+    hash.add("こんばんわ", "こんばんわで終わりました。")
+    
+    return hash.get("おはよう"); 
+}
+
+// 名前に敬称を追加
+function addMrs(string name){
+    return "Mrs." + name 
+}
+
+
