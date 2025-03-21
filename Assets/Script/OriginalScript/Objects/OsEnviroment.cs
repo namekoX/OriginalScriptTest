@@ -64,6 +64,6 @@ public class OsEnviroment
 
     public bool contains(string name)
     {
-        return store.ContainsKey(name);
+        return store.ContainsKey(name) || (outer != null && outer.contains(name));
     }
 }
